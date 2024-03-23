@@ -1,7 +1,7 @@
 import sys
 
-n,x = map(int, input().split())
-li = list(map(int, input().split()))
+n,x = map(int, sys.stdin.readline().split())
+li = list(map(int, sys.stdin.readline().split()))
 
 for i in range(n):
     if li[i] < x:
